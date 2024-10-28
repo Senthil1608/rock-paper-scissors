@@ -1,15 +1,18 @@
 # rock-paper-scissors
 A kotlin code to have rock paper scissor game.
 
-**step1** : Download the code from github. 
-**step2** : Run the code in android studio in its latest version
-**step3** : console will be opened with code running.
-**step4** : input your choices ranging from 1 to 3.
+
+
+**Steps**
+1. Download the code from github. 
+2. Run the code in android studio in its latest version
+3. console will be opened with code running.
+4. input your choices ranging from 1 to 3.
 
 **inidications**
-1 represent Rock
-2 represent Paper
-3 represent Scissors
+1. '1' represent "rock"
+2. '2' represent "paper"
+3. '3' represent "scissors"
 
 **Rules**
 1. If Rock and Paper are choices , Paper wins
