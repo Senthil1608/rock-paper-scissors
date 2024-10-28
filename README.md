@@ -6,8 +6,7 @@ A kotlin code to have rock paper scissor game
 **step3** : console will be opened with code running.
 **step4** : input your choices ranging from 1 to 3.
 
-**inidications
-**
+**inidications**
 1 represent Rock
 2 represent Paper
 3 represent Scissors
