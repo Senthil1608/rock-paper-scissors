@@ -1,7 +1,7 @@
 # rock-paper-scissors
 A kotlin code to have rock paper scissor game
 
-**step1** : Download the code from github.
+**step1** : Download the code from github. 
 **step2** : Run the code in android studio in its latest version
 **step3** : console will be opened with code running.
 **step4** : input your choices ranging from 1 to 3.
