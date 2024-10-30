@@ -12,21 +12,11 @@ fun main()
         //generate random choice for computer ranging 1 to 3
         val computerInput = (1..3).random()
         println("computer's choice $computerInput")
-        //if rock over paper paper wins
+        //if rock over paper , paper wins
         if(computerInput == 1 && userInput == 2) {
             userPoints += 1
             println("User Scores")
-        }  //if rock over scissors , scissors win
-        else if(computerInput == 1 && userInput == 3)
-        {
-            computerPoints+=1
-            println("Computer Scores")
-        } //if paper over rock paper wins
-        else if(computerInput == 2 && userInput == 1)
-        {
-            computerPoints+=1
-            println("Computer Scores")
-        } //if paper over scissors , scissor wins
+        }  //if paper over scissors , scissor wins
         else if(computerInput == 2 && userInput == 3)
         {
             userPoints+=1
@@ -36,17 +26,13 @@ fun main()
         {
             userPoints+=1
             println("User Scores")
-        } //if scissors over paper, scissors win
-        else if(computerInput == 3 && userInput == 2)
-        {
-            computerPoints+=1
-            println("Computer Scores")
-        } //if same choices , no points given
+        } //if scissors over paper, scissors wins
         else if(computerInput - userInput == 0){
             println("Same choices no points")
         } //if no valid input , ranging outside 1 to 3 an error message thrown
         else{
-            println("Enter a valid input")
+            println("Computer Scores")
+            computerPoints+=1
         }
 
     }
