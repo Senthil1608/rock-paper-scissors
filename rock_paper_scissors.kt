@@ -48,6 +48,6 @@ fun main()
     {
         println("Computer wins over user") //computer win message
         println("computer points $computerPoints") // computer points
-        println("user points $userPoints") // user win points
+        println("user points $userPoints") // user points
     }
 }
